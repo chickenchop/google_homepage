@@ -1,21 +1,49 @@
 div {
   background-color: white;
   font-family: arial,sans-serif;
+  margin: 20px;
 }
 
-ul {
-  display: inline;
+.top_navbar {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+
+  float: right;
+
+  font-size: 14px;
 }
 
-li {
+.top_content {
+  padding: 0 6px 0 6px;
+}
+
+li{
   display: inline;
 }
 
+.main_content {
+    width: 600px;
+    height: 10px;
+    background-color: white;
 
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 
+    margin: auto;
+}
+
+img {
+	display: block;
+	margin: auto;
+}
+
+input[type=text] { 
+	width: 100%;
+	height: 32px;
+
+}
 
 
 
